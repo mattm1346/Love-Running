@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
 
 * {
-    margin: 2px;
+    margin: 0px;
     padding: 0;
     border: none;
 }
 
 body {
-    font-family: Nunito, sans-serif;
+    font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
 /* headings and logo */
 
 h1, h2 {
-    font-family: Montserrat, sans-serif;
+    font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     color: #252525;
 }
 
@@ -205,4 +207,20 @@ hr {
     background-position: center;
     width: 100%;
     overflow: hidden;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgb(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#times h2 {
+    color: #fafafa;
 }
